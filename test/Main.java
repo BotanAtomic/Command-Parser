@@ -28,7 +28,7 @@ public class Main {
 
             @Override
             public void notRecognizedOptions(List<String> options, Command command) {
-                System.err.printf("Argument(s) '%s' are not recognized  by the command '%s' \n", Arrays.toString(options.toArray()),
+                System.err.printf("Argument(s) '%s' are not recognized in the command '%s' \n", Arrays.toString(options.toArray()),
                         command.getName());
             }
 
